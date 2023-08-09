@@ -5,8 +5,8 @@ import UncontrolledForm from './components/UncontrolledForm';
 function App() {
   return (
     <div className="App">
-      {/* <Form /> */}
-      <UncontrolledForm />
+      <Form />
+      {/* <UncontrolledForm /> */}
     </div>
   );
 }
