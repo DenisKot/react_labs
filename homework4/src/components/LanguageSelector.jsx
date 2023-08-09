@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 
+// not working: memo(({ languages, selectedLanguageIndex, onSelect }) => {})
 const LanguageSelector = ({ languages, selectedLanguageIndex, onSelect }) => {
   return (
     <ul className='languages'>
